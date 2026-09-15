@@ -36,7 +36,16 @@ for name in "${names[@]}"; do
   fi
   url="https://github.com/${REPO}/releases/download/${TAG}/${name}.scp.gz"
   echo "  [get ] ${name}.scp"
-  curl -fL --retry 3 -o "${dest}.gz" "$url"
+  if ! curl -fsSL --retry 3 -o "${dest}.gz" "$url"; then
+    # A private repository (before release day) needs an authenticated download.
+    if command -v gh >/dev/null 2>&1; then
+      rm -f "${dest}.gz"
+      gh release download "$TAG" -R "$REPO" -p "${name}.scp.gz" -D instances --clobber
+    else
+      echo "  download failed (is the repository public yet? otherwise install gh and run gh auth login)" >&2
+      exit 1
+    fi
+  fi
   gunzip -f "${dest}.gz"
   want=$(awk -v f="${name}.scp" '$2 == f {print $1}' "$sums")
   got=$(sha256_of "$dest")
