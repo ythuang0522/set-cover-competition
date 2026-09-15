@@ -18,7 +18,7 @@ TAG="${RELEASE_TAG:-v1.0}"
 cd "$(dirname "$0")/.."
 mkdir -p instances
 
-names=(rnd5k uni5k dense2k geo10k blocks8k tail5k)
+names=(rnd10k sparse5k uni5k geo10k blocks8k tail8k)
 sums="checksums/scored.sha256"
 
 sha256_of() {
