@@ -1,0 +1,8 @@
+# The practice set: same six families, smaller, 10 s each. Not scored.
+# <category> <instance.scp> <time_limit_seconds>
+RANDOM      instances/dev_rnd1k.scp       10
+RANDOM      instances/dev_sparse500.scp   10
+RANDOM      instances/dev_uni500.scp      10
+STRUCTURED  instances/dev_geo1k.scp       10
+STRUCTURED  instances/dev_blocks1k.scp    10
+STRUCTURED  instances/dev_tail800.scp     10

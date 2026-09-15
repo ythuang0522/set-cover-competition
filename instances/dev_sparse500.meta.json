@@ -1,0 +1,33 @@
+{
+  "family": "uniform",
+  "category": "RANDOM",
+  "time_limit_s": 10,
+  "seed": 20260915,
+  "salt": "public-v1",
+  "params": {
+    "klo": 3,
+    "khi": 12,
+    "cmax": 100
+  },
+  "coverage_fixes": 0,
+  "description": "dev tier",
+  "name": "dev_sparse500",
+  "m": 500,
+  "n": 6000,
+  "nnz": 45106,
+  "total_cost": 300114,
+  "unicost": false,
+  "instance_sha256": "fe8ac399229dbc5572621181c74d206e56a815800cf517b477f117cf031d8d9b",
+  "lower_bound": 247,
+  "lagrangian": 246.319731,
+  "foundation_cost": 291,
+  "foundation_ratio": 1.17814,
+  "ref_cost": 255,
+  "ref_ratio": 1.03239,
+  "ref60_ratio": 1.03239,
+  "greedy_cost": 291,
+  "lagrangian_cost": 256,
+  "ref_seconds": 30,
+  "ref60_cost": 255,
+  "bound_iters": 6000
+}

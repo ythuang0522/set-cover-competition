@@ -1,0 +1,33 @@
+{
+  "family": "uniform",
+  "category": "RANDOM",
+  "time_limit_s": 60,
+  "seed": 20260915,
+  "salt": "public-v1",
+  "params": {
+    "klo": 3,
+    "khi": 12,
+    "cmax": 100
+  },
+  "coverage_fixes": 0,
+  "description": "Small sets (3-12 elements), costs 1-100. The bound is tight here, so the optimum is nearly within reach.",
+  "name": "sparse5k",
+  "m": 5000,
+  "n": 60000,
+  "nnz": 449331,
+  "total_cost": 3037980,
+  "unicost": false,
+  "instance_sha256": "2befe3354308b87565e7a97c81b8bc1830695225d66beef4b16e954ca2a9ef3f",
+  "lower_bound": 2542,
+  "lagrangian": 2541.474906,
+  "foundation_cost": 2978,
+  "foundation_ratio": 1.17152,
+  "ref_cost": 2648,
+  "ref_ratio": 1.0417,
+  "ref60_ratio": 1.04209,
+  "greedy_cost": 2978,
+  "lagrangian_cost": 2734,
+  "ref_seconds": 300,
+  "ref60_cost": 2649,
+  "bound_iters": 6000
+}

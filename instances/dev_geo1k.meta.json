@@ -1,0 +1,33 @@
+{
+  "family": "geo",
+  "category": "STRUCTURED",
+  "time_limit_s": 10,
+  "seed": 20260915,
+  "salt": "public-v1",
+  "params": {
+    "rmin": 0.03,
+    "rmax": 0.3,
+    "sigma": 0.6
+  },
+  "coverage_fixes": 0,
+  "description": "dev tier",
+  "name": "dev_geo1k",
+  "m": 1000,
+  "n": 5000,
+  "nnz": 36970,
+  "total_cost": 26414,
+  "unicost": false,
+  "instance_sha256": "e7e8cf0e534e142b3964db8a9df095c75b35de4c23adc22a1af7b1904c31c4c7",
+  "lower_bound": 511,
+  "lagrangian": 510.606119,
+  "foundation_cost": 603,
+  "foundation_ratio": 1.18004,
+  "ref_cost": 520,
+  "ref_ratio": 1.01761,
+  "ref60_ratio": 1.01761,
+  "greedy_cost": 603,
+  "lagrangian_cost": 528,
+  "ref_seconds": 30,
+  "ref60_cost": 520,
+  "bound_iters": 6000
+}

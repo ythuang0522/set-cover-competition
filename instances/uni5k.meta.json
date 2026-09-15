@@ -1,0 +1,33 @@
+{
+  "family": "uniform",
+  "category": "RANDOM",
+  "time_limit_s": 60,
+  "seed": 20260915,
+  "salt": "public-v1",
+  "params": {
+    "klo": 3,
+    "khi": 8,
+    "cmax": 1
+  },
+  "coverage_fixes": 0,
+  "description": "Every set costs 1 and has 3-8 elements: pure combinatorics, plateaus everywhere, and a looser bound.",
+  "name": "uni5k",
+  "m": 5000,
+  "n": 60000,
+  "nnz": 330172,
+  "total_cost": 60000,
+  "unicost": true,
+  "instance_sha256": "2cc2d8bb9a949423aa8fe3a74a4ad6576ba46823b576581bd4d808b17da17c45",
+  "lower_bound": 625,
+  "lagrangian": 625.0,
+  "foundation_cost": 866,
+  "foundation_ratio": 1.3856,
+  "ref_cost": 848,
+  "ref_ratio": 1.3568,
+  "ref60_ratio": 1.36,
+  "greedy_cost": 866,
+  "lagrangian_cost": 866,
+  "ref_seconds": 300,
+  "ref60_cost": 850,
+  "bound_iters": 6000
+}

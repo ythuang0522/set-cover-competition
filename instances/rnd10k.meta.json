@@ -1,0 +1,33 @@
+{
+  "family": "uniform",
+  "category": "RANDOM",
+  "time_limit_s": 60,
+  "seed": 20260915,
+  "salt": "public-v1",
+  "params": {
+    "klo": 5,
+    "khi": 25,
+    "cmax": 100
+  },
+  "coverage_fixes": 0,
+  "description": "10,000 elements, 100,000 random sets of 5-25 elements, costs 1-100. The classic OR-Library shape, large.",
+  "name": "rnd10k",
+  "m": 10000,
+  "n": 100000,
+  "nnz": 1499456,
+  "total_cost": 5062029,
+  "unicost": false,
+  "instance_sha256": "6b26004006d8b07120836662da395035be29e58e62b2d30d416acc8b5db0db8b",
+  "lower_bound": 2204,
+  "lagrangian": 2203.63672,
+  "foundation_cost": 2753,
+  "foundation_ratio": 1.24909,
+  "ref_cost": 2433,
+  "ref_ratio": 1.1039,
+  "ref60_ratio": 1.11343,
+  "greedy_cost": 2753,
+  "lagrangian_cost": 2569,
+  "ref_seconds": 300,
+  "ref60_cost": 2454,
+  "bound_iters": 6000
+}

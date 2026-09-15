@@ -1,0 +1,8 @@
+# The scored set: six instances, 60 s of wall clock each, one thread.
+# <category> <instance.scp> <time_limit_seconds>
+RANDOM      instances/rnd10k.scp     60
+RANDOM      instances/sparse5k.scp   60
+RANDOM      instances/uni5k.scp      60
+STRUCTURED  instances/geo10k.scp     60
+STRUCTURED  instances/blocks8k.scp   60
+STRUCTURED  instances/tail8k.scp     60
